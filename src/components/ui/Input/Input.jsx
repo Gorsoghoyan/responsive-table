@@ -1,4 +1,4 @@
-import s from "../../sass/input.module.scss";
+import s from "./styles.module.scss";
 
 export default function Input({
   variant,
@@ -6,6 +6,8 @@ export default function Input({
   name,
   value,
   placeholder,
+  readOnly,
+  onChange
 }) {
   return (
     <input 
@@ -14,6 +16,8 @@ export default function Input({
       name={name}
       value={value}
       placeholder={placeholder}
+      readOnly={readOnly}
+      onChange={onChange}
     />
   );
 }

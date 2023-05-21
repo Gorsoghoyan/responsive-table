@@ -1,0 +1,20 @@
+
+.s {
+  width: 180px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgba(115, 115, 115, 0.573);
+  color: white;
+  background: transparent;
+  transition: all 0.2s linear;
+  
+  &::placeholder {
+    color: #dee2e6;
+  }
+
+  &:focus {
+    box-shadow: 0 0 2px 3px rgba(71, 163, 255, 0.301);
+    border-color: #348fe2;
+  }
+} 

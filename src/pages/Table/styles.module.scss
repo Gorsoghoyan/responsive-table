@@ -1,0 +1,54 @@
+.tableContainer {
+  width: 1024px;
+  margin: 40px auto;
+  padding: 20px 15px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #2d353c;
+  color: white;
+
+  .searchAndVisibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .table {
+    min-height: 300px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+
+    .rowsPerPage {
+      display: flex;
+    }
+
+    .dataInfo {
+      font-size: 14px;
+    }
+
+    .arrows {
+      svg {
+        padding: 3px;
+        font-size: 23px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+          background: rgba(62, 72, 82, 0.843)
+        }
+
+        &:first-child {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
