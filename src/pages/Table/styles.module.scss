@@ -18,6 +18,7 @@
 
   .table {
     min-height: 300px;
+    margin: 20px 0;
   }
 
   .pagination {
@@ -36,14 +37,7 @@
 
     .arrows {
       svg {
-        padding: 3px;
-        font-size: 23px;
-        border-radius: 50%;
         cursor: pointer;
-
-        &:hover {
-          background: rgba(62, 72, 82, 0.843)
-        }
 
         &:first-child {
           margin-right: 30px;
