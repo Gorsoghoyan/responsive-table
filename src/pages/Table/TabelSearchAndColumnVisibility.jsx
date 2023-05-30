@@ -7,7 +7,7 @@ export default function TabelSearchAndColumnVisibility() {
       <Input 
         variant={"s"}
         type={"search"}
-        placeholder={"Search by name..."}
+        placeholder={"Search..."}
       />
     </div>
   );
