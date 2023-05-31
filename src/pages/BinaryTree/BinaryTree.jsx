@@ -1,25 +1,25 @@
 
 const treeData = [
   {
-    id: "1",
+    id: 1,
     title: "Cars",
     children: [
       {
-        id: "2",
+        id: 2,
         title: "Mercedes",
         children: [
           {
-            id: "3",
+            id: 3,
             title: "E63 AMG"
           }
         ]
       },
       {
-        id: "4",
+        id: 4,
         title: "BMW",
         children: [
           {
-            id: "5",
+            id: 5,
             title: "E60 M5"
           }
         ]
@@ -27,33 +27,33 @@ const treeData = [
     ]
   },
   {
-    id: "6",
+    id: 6,
     title: "Phones",
     children: [
       {
-        id: "7",
+        id: 7,
         title: "Apple",
         children: [
           {
-            id: "8",
+            id: 8,
             title: "Iphone 14 pro"
           },
           {
-            id: "9",
+            id: 9,
             title: "Iphone 13 pro"
           },
         ]
       },
       {
-        id: "10",
+        id: 10,
         title: "Samsung",
         children: [
           {
-            id: "11",
+            id: 11,
             title: "Galaxy 14"
           },
           {
-            id: "12",
+            id: 12,
             title: "Galaxy 24 Ultra"
           },
         ]
@@ -61,7 +61,7 @@ const treeData = [
     ]
   },
   {
-    id: "13",
+    id: 13,
     title: "Jobs"
   }
 ];
