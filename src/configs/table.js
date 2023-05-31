@@ -1,5 +1,5 @@
 
-export const columns = [
+export const columnsConfig = [
   {
     id: 1,
     title: "",

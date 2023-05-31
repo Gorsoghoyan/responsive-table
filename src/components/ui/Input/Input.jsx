@@ -7,6 +7,7 @@ export default function Input({
   value,
   placeholder,
   readOnly,
+  checked,
   onChange
 }) {
   return (
@@ -17,6 +18,7 @@ export default function Input({
       value={value}
       placeholder={placeholder}
       readOnly={readOnly}
+      checked={checked}
       onChange={onChange}
     />
   );

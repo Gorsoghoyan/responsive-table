@@ -1,6 +1,5 @@
 import { users } from "../../db/users";
-import { columns } from "../../configs/table";
-import { MdOutlineArrowDropUp, MdOutlineArrowDropDown } from "react-icons/md";
+import { useTable } from "./useTable";
 import TabelSearchAndColumnVisibility from "./TabelSearchAndColumnVisibility";
 import TablePagination from "./TablePagination";
 import s from "./styles.module.scss";
@@ -12,21 +11,32 @@ const TableHeadCell = ({ children }) => <th>{children}</th>;
 const TableBodyCell = ({ children }) => <td>{children}</td>;
 
 export default function Table() {
+  const {
+    columns,
+    showColumns,
+    showColumnsRef,
+    handleShowColumns,
+    handleColumnChange
+  } = useTable();
+
   return (
     <div className={s.container}>
-      <TabelSearchAndColumnVisibility />
+      <TabelSearchAndColumnVisibility
+        columns={columns}
+        showColumns={showColumns}
+        showColumnsRef={showColumnsRef}
+        handleShowColumns={handleShowColumns}
+        handleColumnChange={handleColumnChange}
+      />
       <div className={s.tableContainer}>
         <table border={1} className={s.table}>
           <thead>
             <TableRow>
-              {columns.map(column => (
+              {columns.map(column => column.visibility && (
                 <TableHeadCell key={column.id}>
                   <div className={s.wrapper}>
                     <span>{column.title}</span>
-                    <div className={s.arrows}>
-                      {/* <MdOutlineArrowDropUp />
-                      <MdOutlineArrowDropDown /> */}
-                    </div>
+                    <div className={s.arrows}></div>
                   </div>
                 </TableHeadCell>
               ))}
