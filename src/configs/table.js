@@ -1,32 +1,32 @@
 
 export const columnsConfig = [
-  {
-    id: 1,
-    title: "",
-    sorting: true,
-    visibility: true
-  },
+  // {
+  //   id: 1,
+  //   title: "ID",
+  //   sorting: true,
+  //   visibility: true
+  // },
   {
     id: 2,
-    title: "Name",
+    title: "NAME",
     sorting: true,
     visibility: true
   },
   {
     id: 3,
-    title: "Email",
+    title: "EMAIL",
     sorting: true,
     visibility: true
   },
   {
     id: 4,
-    title: "Profession",
+    title: "PROFESSION",
     sorting: true,
     visibility: true
   },
   {
     id: 5,
-    title: "Gender",
+    title: "GENDER",
     sorting: true,
     visibility: true
   }

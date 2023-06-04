@@ -4,9 +4,9 @@ import s from "./styles.module.scss";
 
 export default function TabelSearchAndColumnVisibility({
   columns,
-  showColumns,
   showColumnsRef,
-  handleShowColumns,
+  showColumnsDropDown,
+  handleShowColumnsDropDown,
   handleColumnChange
 }) {
   return (
@@ -18,16 +18,16 @@ export default function TabelSearchAndColumnVisibility({
       />
       <div 
         className={s.selectColumn} 
-        onClick={handleShowColumns}
+        onClick={handleShowColumnsDropDown}
         ref={showColumnsRef} 
       >
         <span>Show columns</span>
         <MdOutlineKeyboardArrowDown />
-        {showColumns && (
+        {showColumnsDropDown && (
           <div className={s.dropDownWrapper}>
-            {columns.map((column, index) => (
+            {columns.map(column => (
               <label key={column.id}>
-                <span>{index === 0 ? "Id" : column.title}</span>
+                <span>{column.title}</span>
                 <Input 
                   type={"checkbox"} 
                   checked={column.visibility} 
