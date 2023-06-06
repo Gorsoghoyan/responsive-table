@@ -1,32 +1,26 @@
 import { useTable } from "./useTable";
-import TabelSearchAndColumnVisibility from "./TabelSearchAndColumnVisibility";
-import TablePagination from "./TablePagination";
 import Table from "./Table";
+import TablePagination from "./TablePagination";
+import TabelSearchAndColumnVisibility from "./TabelSearchAndColumnVisibility";
 import s from "./styles.module.scss";
 
 export default function ResponsiveTable() {
   const {
-    users,
-    columns,
-    showColumnsRef,
+    table,
     showColumnsDropDown,
+    showColumnsDropDownRef,
     handleShowColumnsDropDown,
-    handleColumnChange
   } = useTable();
 
   return (
     <div className={s.container}>
       <TabelSearchAndColumnVisibility
-        columns={columns}
-        showColumnsRef={showColumnsRef}
-        showColumns={showColumnsDropDown}
-        handleShowColumns={handleShowColumnsDropDown}
-        handleColumnChange={handleColumnChange}
+        table={table}
+        showColumnsDropDown={showColumnsDropDown}
+        showColumnsDropDownRef={showColumnsDropDownRef}
+        handleShowColumnsDropDown={handleShowColumnsDropDown}
       />
-      <Table 
-        users={users}
-        columns={columns}
-      />
+      <Table table={table} />
       <TablePagination
         page={""}
         count={""}

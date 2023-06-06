@@ -2,38 +2,53 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Input from "../../components/ui/Input/Input";
 import s from "./styles.module.scss";
 
+function LabelItem({ title, checked, onChange }) {
+  return (
+    <label>
+      <span>{title}</span>
+      <Input
+        type={"checkbox"}
+        checked={checked}
+        onChange={onChange}
+      />
+    </label>
+  );
+}
+
 export default function TabelSearchAndColumnVisibility({
-  columns,
-  showColumnsRef,
+  table,
   showColumnsDropDown,
+  showColumnsDropDownRef,
   handleShowColumnsDropDown,
-  handleColumnChange
 }) {
   return (
     <div className={s.searchAndVisibility}>
       <Input
         variant={"s"}
         type={"search"}
-        placeholder={"Search..."}
+        placeholder={"Search all columns..."}
       />
-      <div 
-        className={s.selectColumn} 
+      <div
+        className={s.selectColumn}
         onClick={handleShowColumnsDropDown}
-        ref={showColumnsRef} 
+        ref={showColumnsDropDownRef}
       >
         <span>Show columns</span>
         <MdOutlineKeyboardArrowDown />
         {showColumnsDropDown && (
           <div className={s.dropDownWrapper}>
-            {columns.map(column => (
-              <label key={column.id}>
-                <span>{column.title}</span>
-                <Input 
-                  type={"checkbox"} 
-                  checked={column.visibility} 
-                  onChange={e => handleColumnChange(e, column.id)}
-                />
-              </label>
+            <LabelItem
+              title={"Toggle All"}
+              checked={table.getIsAllColumnsVisible()}
+              onChange={table.getToggleAllColumnsVisibilityHandler()}
+            />
+            {table.getAllLeafColumns().map(column => (
+              <LabelItem
+                key={column.id}
+                title={column.id}
+                checked={column.getIsVisible()}
+                onChange={column.getToggleVisibilityHandler()}
+              />
             ))}
           </div>
         )}

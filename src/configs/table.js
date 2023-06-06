@@ -1,33 +1,23 @@
 
-export const columnsConfig = [
-  // {
-  //   id: 1,
-  //   title: "ID",
-  //   sorting: true,
-  //   visibility: true
-  // },
+export const defaultColumns = [
   {
-    id: 2,
-    title: "NAME",
-    sorting: true,
-    visibility: true
+    accessorKey: "id",
+    header: "Id",
   },
   {
-    id: 3,
-    title: "EMAIL",
-    sorting: true,
-    visibility: true
+    accessorKey: "name",
+    header: "Name"
   },
   {
-    id: 4,
-    title: "PROFESSION",
-    sorting: true,
-    visibility: true
+    accessorKey: "email",
+    header: "Email"
   },
   {
-    id: 5,
-    title: "GENDER",
-    sorting: true,
-    visibility: true
+    accessorKey: "profession",
+    header: "Profession"
+  },
+  {
+    accessorKey: "gender",
+    header: "Gender"
   }
 ];

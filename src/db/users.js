@@ -2,7 +2,7 @@
 export const users = [
   {
     id: 1,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -10,7 +10,7 @@ export const users = [
   },
   {
     id: 2,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -18,7 +18,7 @@ export const users = [
   },
   {
     id: 3,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -26,7 +26,7 @@ export const users = [
   },
   {
     id: 4,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -34,7 +34,7 @@ export const users = [
   },
   {
     id: 5,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -42,7 +42,7 @@ export const users = [
   },
   {
     id: 6,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -50,7 +50,7 @@ export const users = [
   },
   {
     id: 7,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -58,7 +58,7 @@ export const users = [
   },
   {
     id: 8,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -66,7 +66,7 @@ export const users = [
   },
   {
     id: 9,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -74,7 +74,7 @@ export const users = [
   },
   {
     id: 10,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -82,7 +82,7 @@ export const users = [
   },
   {
     id: 11,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -90,7 +90,7 @@ export const users = [
   },
   {
     id: 12,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -98,7 +98,7 @@ export const users = [
   },
   {
     id: 13,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -106,7 +106,7 @@ export const users = [
   },
   {
     id: 14,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -114,7 +114,7 @@ export const users = [
   },
   {
     id: 15,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -122,7 +122,7 @@ export const users = [
   },
   {
     id: 16,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -130,7 +130,7 @@ export const users = [
   },
   {
     id: 17,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -138,7 +138,7 @@ export const users = [
   },
   {
     id: 18,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -146,7 +146,7 @@ export const users = [
   },
   {
     id: 19,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -154,7 +154,7 @@ export const users = [
   },
   {
     id: 20,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -162,7 +162,7 @@ export const users = [
   },
   {
     id: 21,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -170,7 +170,7 @@ export const users = [
   },
   {
     id: 22,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -178,7 +178,7 @@ export const users = [
   },
   {
     id: 23,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -186,7 +186,7 @@ export const users = [
   },
   {
     id: 24,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -194,7 +194,7 @@ export const users = [
   },
   {
     id: 25,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -202,7 +202,7 @@ export const users = [
   },
   {
     id: 26,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -210,7 +210,7 @@ export const users = [
   },
   {
     id: 27,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -218,7 +218,7 @@ export const users = [
   },
   {
     id: 28,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -226,7 +226,7 @@ export const users = [
   },
   {
     id: 29,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -234,7 +234,7 @@ export const users = [
   },
   {
     id: 30,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -242,7 +242,7 @@ export const users = [
   },
   {
     id: 31,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -250,7 +250,7 @@ export const users = [
   },
   {
     id: 32,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -258,7 +258,7 @@ export const users = [
   },
   {
     id: 33,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
@@ -266,7 +266,7 @@ export const users = [
   },
   {
     id: 34,
-    displayName: "Gor Soghoyan",
+    name: "Gor Soghoyan",
     email: "soghoyangor@gmail.com",
     profession: "Web developer",
     gender: "Male",
